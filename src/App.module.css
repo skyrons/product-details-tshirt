@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    height: 5rem;
+}
+
+header img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.backgroundImage {
+    display: flex;
+}
+
+.backgroundImage img {
+    width: 100%;
+    height: 100vh;
+}
+
+.infoBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+    width: 25rem;
+    background-color: #FDFDFD9D;
+    border-radius: 8px;
+}
+.infoBox h3 {
+    text-align: center;
+}
+.infoBox ul {
+    margin: 2rem;
+}
